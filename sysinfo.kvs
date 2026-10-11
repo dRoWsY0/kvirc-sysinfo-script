@@ -1,0 +1,8 @@
+alias(sysinfo) {
+	echo "=== System Information ==="
+	echo "Hostname: $hostname"
+	echo "OS: $system.os"
+	echo "KVIrc Version: $version"
+	echo "Architecture: $system.cpu"
+	echo "=========================="
+}
